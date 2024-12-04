@@ -1,0 +1,112 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+.section{
+    margin-left: auto;
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    margin-top: 0%;
+}
+.section>h1{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.section p{ 
+    text-align: center;
+    margin-left: 15px; 
+    font-size: larger;
+    margin-top: 8px;
+    padding-left: 5px;
+}
+.container{
+     display: flex;
+     justify-content: center;
+     gap: 50px; 
+     width: 100%;
+     font-size: 15px;
+     padding: 20px;
+}
+.second-container{
+    width: 30%;
+}
+.second-container>h2{
+    text-align: left;
+}
+.second-container>p {
+    text-align: left;
+    margin-top: 10px;
+}
+.second-container>hr{
+    border: solid;
+    color: black;
+    width: 100%;
+}
+ul{
+    padding-top: 10px;
+}
+li{
+    list-style: none;
+}
+
+
+.Education{
+
+    padding: 20px;
+    
+}
+.Education> h2{
+    color: black;
+    text-align: left;
+
+}
+.Education> hr{
+    justify-content: left;
+    width: 100%;
+    border: solid;
+    text-align: left;
+}
+.Education> p{
+    text-align: left;
+    display: block;
+    width: 350px;
+    height: auto;
+    margin-top: 10px;
+}
+@media (max-width: 580px){
+
+.container
+    {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 5px;
+        justify-content: center;
+ } 
+ .second-container {
+    flex: 1 0 100%;
+ }
+ button{
+    background-color: brown;
+    padding: 05px;
+    border-radius: 4px ;
+    font-size: 10px;
+    cursor: pointer;
+    width: 10%;
+    margin-left: 100px
+}
+}
+button{
+    background-color: blue;
+    padding: 05px;
+    border-radius: 4px ;
+    font-size: 16px;
+    cursor: pointer;
+    width: 20%;
+    margin: 20px;
+}
